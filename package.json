@@ -1,0 +1,30 @@
+{
+  "name": "zsh-snippets",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Personal collection of modular Zsh snippets and shell utilities.",
+  "homepage": "https://github.com/pmviva/zsh-snippets#readme",
+  "bugs": {
+    "url": "https://github.com/pmviva/zsh-snippets/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pmviva/zsh-snippets.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Pablo Martin Viva",
+    "email": "pmviva@gmail.com"
+  },
+  "packageManager": "pnpm@11.1.1",
+  "devDependencies": {
+    "@commitlint/cli": "^21.0.1",
+    "@commitlint/config-conventional": "^21.0.1",
+    "@commitlint/prompt-cli": "^21.0.1",
+    "lefthook": "^2.1.8"
+  },
+  "scripts": {
+    "commit": "commit",
+    "postinstall": "lefthook install"
+  }
+}
