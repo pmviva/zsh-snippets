@@ -16,7 +16,7 @@
     "name": "Pablo Martin Viva",
     "email": "pmviva@gmail.com"
   },
-  "packageManager": "pnpm@11.1.1",
+  "packageManager": "pnpm@11.5.0",
   "devDependencies": {
     "@commitlint/cli": "^21.0.1",
     "@commitlint/config-conventional": "^21.0.1",
