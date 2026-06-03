@@ -1,0 +1,9 @@
+###
+# PNPM WORKSPACE CONFIGURATION FILE
+###
+
+###
+# CONFIGURES THE ALLOW BUILDS SECTION
+###
+allowBuilds:
+  lefthook: true

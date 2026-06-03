@@ -1,0 +1,11 @@
+###
+# LEFTHOOK CONFIGURATION FILE
+###
+
+###
+# CONFIGURES THE COMMIT MSG HOOK
+###
+commit-msg:
+  commands:
+    commit-message-lint:
+      run: pnpm exec commitlint --color --edit {1}

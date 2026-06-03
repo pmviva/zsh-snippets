@@ -1,0 +1,8 @@
+###
+# GITIGNORE CONFIGURATION FILE
+###
+
+###
+# IGNORES THE NODE TOOLING FILES
+###
+node_modules
