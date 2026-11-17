@@ -26,6 +26,7 @@ Instead of keeping all shell behavior inside a single large `.zshrc` file, each 
 * Homebrew initialization
 * Keybindings initialization
 * NVM initialization
+* OpenCode PATH configuration
 * PATH configuration
 * PNPM initialization
 * SDKMAN! initialization
@@ -64,6 +65,7 @@ pmviva-snippet keybindings
 pmviva-snippet homebrew
 pmviva-snippet cargo
 pmviva-snippet nvm
+pmviva-snippet opencode
 pmviva-snippet sdkman
 pmviva-snippet pnpm
 pmviva-snippet fastfetch
@@ -82,6 +84,7 @@ snippets
   ├── homebrew.zsh
   ├── keybindings.zsh
   ├── nvm.zsh
+  ├── opencode.zsh
   ├── path.zsh
   ├── pnpm.zsh
   ├── sdkman.zsh
@@ -227,6 +230,11 @@ pmviva-snippet cargo
 pmviva-snippet nvm
 
 ###
+# INCLUDES THE PMVIVA OPENCODE SNIPPET
+###
+pmviva-snippet opencode
+
+###
 # INCLUDES THE PMVIVA SDKMAN! SNIPPET
 ###
 pmviva-snippet sdkman
@@ -287,6 +295,7 @@ Some snippets expect external tools to be installed:
 | `cargo.zsh` | Rust & Cargo |
 | `fastfetch.zsh` | Fastfetch |
 | `nvm.zsh` | NVM |
+| `opencode.zsh` | OpenCode installed in `/home/pmviva/.opencode/bin` |
 | `sdkman.zsh` | SDKMAN! |
 | `pnpm.zsh` | PNPM |
 | `starship.zsh` | Starship |
