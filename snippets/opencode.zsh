@@ -6,6 +6,10 @@
 ###
 
 ###
-# ADDS OPENCODE TO THE PATH VARIABLE
+# INITIALIZES OPENCODE
 ###
-export PATH=/home/pmviva/.opencode/bin:$PATH
+export OPENCODE_HOME="$HOME/.opencode"
+case ":$PATH:" in
+  *":$OPENCODE_HOME/bin:"*) ;;
+  *) export PATH="$OPENCODE_HOME/bin:$PATH" ;;
+esac

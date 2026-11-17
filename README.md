@@ -295,7 +295,7 @@ Some snippets expect external tools to be installed:
 | `cargo.zsh` | Rust & Cargo |
 | `fastfetch.zsh` | Fastfetch |
 | `nvm.zsh` | NVM |
-| `opencode.zsh` | OpenCode installed in `/home/pmviva/.opencode/bin` |
+| `opencode.zsh` | OpenCode installed in `$HOME/.opencode/bin` |
 | `sdkman.zsh` | SDKMAN! |
 | `pnpm.zsh` | PNPM |
 | `starship.zsh` | Starship |
